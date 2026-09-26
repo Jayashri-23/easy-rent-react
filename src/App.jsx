@@ -1,12 +1,26 @@
-import React from 'react'
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
+import Navbar from './components/Navbar';
+
+import Home from './pages/Home';
+import Properties from './pages/Properties';
+import PropertyDetails from './pages/PropertyDetails';
+import About from './pages/About';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div>
-      <h1> Easy Rent </h1>
-      <p> Find your perfect rental home</p>
-    </div>
-  )
-}
+    <>
+    <Navbar/>
 
+    <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route path='/properties' element={<Properties />}/>
+      <Route path='/property/:id' element={<PropertyDetails />}/>
+      <Route path='/about' element={<About />}/>
+      <Route path='/contact' element={<Contact />}/>
+    </Routes>
+    </>
+  );
+}
 export default App;
