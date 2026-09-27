@@ -6,7 +6,6 @@ function About() {
   return (
     <div className="about-page">
 
-      {/* Hero */}
       <section className="about-hero">
         <p className="about-label">ABOUT EASYRENT</p>
 
@@ -23,7 +22,7 @@ function About() {
       </section>
 
 
-      {/* About EasyRent */}
+  
       <section className="about-section">
         <div className="about-text">
           <p className="section-label">OUR PLATFORM</p>
@@ -61,7 +60,6 @@ function About() {
       </section>
 
 
-      {/* How it works */}
       <section className="how-section">
         <p className="section-label">HOW IT WORKS</p>
 
@@ -97,7 +95,7 @@ function About() {
       </section>
 
 
-      {/* Features */}
+
       <section className="features-section">
         <p className="section-label">WHY EASYRENT</p>
 
@@ -142,7 +140,6 @@ function About() {
       </section>
 
 
-      {/* CTA */}
       <section className="about-cta">
         <h2>Ready to find your next home?</h2>
 

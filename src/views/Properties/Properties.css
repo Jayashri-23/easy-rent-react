@@ -17,7 +17,6 @@
 }
 
 
-/* Search and Filters */
 
 .filters {
   display: flex;
@@ -41,7 +40,6 @@
 }
 
 
-/* Select */
 
 .filters select {
   padding: 12px 15px;
@@ -54,16 +52,12 @@
 }
 
 
-/* Property Grid */
-
 .property-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
 }
 
-
-/* Property Card */
 
 .property-card {
   background: white;
@@ -79,7 +73,6 @@
 }
 
 
-/* Property Image */
 
 .property-card img {
   width: 100%;
@@ -88,7 +81,6 @@
 }
 
 
-/* Card Content */
 
 .property-card-content {
   padding: 18px;
@@ -116,7 +108,6 @@
   flex-wrap: wrap;
 }
 
-/* View Details Button */
 
 .property-card-content button {
   width: 100%;
@@ -134,7 +125,6 @@
 }
 
 
-/* No Results */
 
 .no-results {
   text-align: center;
@@ -143,8 +133,6 @@
   font-size: 18px;
 }
 
-
-/* Responsive */
 
 @media (max-width: 900px) {
   .property-grid {

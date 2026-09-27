@@ -8,13 +8,12 @@ function Home() {
 
   const navigate = useNavigate();
 
-  // Show only first 4 properties
+
   const featuredProperties = properties.slice(0, 4);
 
   return (
     <div className="home-page">
 
-      {/* Hero Section */}
 
       <section className="hero-section">
 
@@ -47,7 +46,6 @@ function Home() {
       </section>
 
 
-      {/* Why EasyRent */}
 
       <section className="why-section">
 
@@ -112,7 +110,6 @@ function Home() {
       </section>
 
 
-      {/* Featured Properties */}
 
       <section className="featured-section">
 
